@@ -1,0 +1,35 @@
+/* div{
+    border: 1px solid green;
+    height: 400px;
+    width: 400px;
+    background-image: url("./photos/4847317.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right;
+}
+div:hover{
+    background-image: url("./photos/bmw-1313343_1280.jpg");
+} */
+div{
+    /* border: 2px solid yellowgreen; */
+    /* height: 200px; */
+     /* border-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 100px;
+    border-bottom: 50px solid red;
+    border-top: 3px solid blue; 
+    border-style: double;
+    text-decoration: line-through;
+}  */
+div{
+    border: 1px solid purple;
+    height: 200px;
+    width: 200px;
+    text-align: end;
+    text-decoration:underline ;
+    text-decoration: dashed;/
+    text-transform: ::-ms-fill-upper;
+    color: brown;
+    text-shadow: 50px;
+    box-shadow: ;
+}

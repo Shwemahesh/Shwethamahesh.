@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resume Template</h1>
+    <form id="resumeForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+        <label for="summary">Summary/Objective:</label>
+        <textarea id="summary" name="summary" rows="4" cols="50" required></textarea><br>
+        <h2>Work Experience</h2>
+        <label for="company1">Company 1:</label>
+        <input type="text" id="company1" name="company1" required><br>
+        <label for="position1">Position 1:</label>
+        <input type="text" id="position1" name="position1" required><br>
+        <label for="dates1">Dates 1:</label>
+        <input type="text" id="dates1" name="dates1" required><br>
+        <label for="description1">Description 1:</label>
+        <textarea id="description1" name="description1" rows="4" cols="50" required></textarea><br>
+        <!-- Add more work experience sections as needed -->
+        <h2>Education</h2>
+        <label for="school1">School 1:</label>
+        <input type="text" id="school1" name="school1" required><br>
+        <label for="degree1">Degree 1:</label>
+        <input type="text" id="degree1" name="degree1" required><br>
+        <label for="graduation1">Graduation Date 1:</label>
+        <input type="text" id="graduation1" name="graduation1" required><br>
+        <!-- Add more education sections as needed -->
+        <h2>Skills</h2>
+        <label for="skill1">Skill 1:</label>
+        <input type="text" id="skill1" name="skill1" required><br>
+        <!-- Add more skill sections as needed -->
+        <button type="submit">Generate Resume</button>
+    </form>
+    <table id="resumeTable">
+        <tr>
+            <th>Name</th>
+            <td id="nameDisplay"></td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td id="emailDisplay"></td>
+        </tr>
+        <tr>
+            <th>Phone</th>
+            <td id="phoneDisplay"></td>
+        </tr>
+        <tr>
+            <th>Summary/Objective</th>
+            <td id="summaryDisplay"></td>
+        </tr>
+        <!-- Add more rows for work experience, education, and skills as needed -->
+        </table>
+        </body>
+    
